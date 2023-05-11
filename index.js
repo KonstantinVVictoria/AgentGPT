@@ -26,7 +26,7 @@ function AgentFactory({ API_KEY }) {
           }
           return prev + "\n" + current_string;
         }, "");
-        const query = prompt(input);
+        const query = prompt(input.substring(1, input.length));
         console.log(query, "\n");
 
         const response = await fetch(

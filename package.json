@@ -3,7 +3,7 @@
     "node-fetch": "^2.6.11"
   },
   "name": "@adasuite/agentgpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that helps you create multiple GPT agents and multi-agent architectures.",
   "main": "index.js",
   "devDependencies": {},
